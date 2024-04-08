@@ -12,11 +12,11 @@ const RightNav = () => {
     return (
         <>
             <Buttons />
-            <nav class="mobile-right">
-                <div class="hambuger-icon" onClick={handleClick}>
-                    <span class="sticks"></span>
-                    <span class="sticks"></span>
-                    <span class="sticks"></span>    
+            <nav className="mobile-right">
+                <div className="hambuger-icon" onClick={handleClick}>
+                    <span className="sticks"></span>
+                    <span className="sticks"></span>
+                    <span className="sticks"></span>    
                 </div>
             </nav>
 
@@ -30,10 +30,10 @@ const RightNav = () => {
                     <aside 
                         className={`${isShowing && 'animation'}`}>
 
-                        <div class="close-icon" onClick={handleClick}>
-                            <span class="sticks close-sticks"></span>
-                            <span class="sticks close-sticks"></span>
-                            <span class="sticks close-sticks"></span>    
+                        <div className="close-icon" onClick={handleClick}>
+                            <span className="sticks close-sticks"></span>
+                            <span className="sticks close-sticks"></span>
+                            <span className="sticks close-sticks"></span>    
                         </div>
 
                         <Features />

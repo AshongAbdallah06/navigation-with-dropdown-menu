@@ -7,19 +7,19 @@ import clientMaker from '../images/client-maker.svg';
 
 const RightSection = () => {
     return (
-        <section class="right-section">
-            <div class="hero-image-container">
-                <img src={heroImage} class="hero-image" alt="" />
+        <section className="right-section">
+            <div className="hero-image-container">
+                <img src={heroImage} className="hero-image" alt="" />
             </div>
 
-            <div class="text-container-right">
+            <div className="text-container-right">
                 <h1>Make remote work</h1>
-                <p class="subtext">
+                <p className="subtext">
                     Get your team in sync, no matter your<br /> location.  Streamline processes, create<br /> team rituals, and watch  productivity soar.                    
                 </p>
-                <button class="learn-more">Learn more</button>
+                <button className="learn-more">Learn more</button>
 
-                <div class="bottom">
+                <div className="bottom">
                     <img src={databiz} alt="" />
                     <img src={audiophile} alt="" />
                     <img src={meet} alt="" />
